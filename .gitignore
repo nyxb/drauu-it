@@ -1,4 +1,14 @@
 # Based on https://raw.githubusercontent.com/github/gitignore/main/Node.gitignore
+.DS_Store
+.vite-ssg-dist
+.vite-ssg-temp
+*.local
+dist
+dist-ssr
+node_modules
+.idea/
+*.log
+*.tgz
 
 # Logs
 
