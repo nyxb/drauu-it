@@ -14,7 +14,7 @@
    "strictNullChecks": true,
    "forceConsistentCasingInFileNames": true,
    "paths": {
-     "drauu": ["./packages/core/src/index.ts"]
+     "drauuIt": ["./packages/core/src/index.ts"]
    }
  },
  "exclude": ["**/dist", "node_modules"],
