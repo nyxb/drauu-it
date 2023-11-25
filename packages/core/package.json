@@ -1,0 +1,39 @@
+{
+  "name": "@drauu-it/core",
+  "version": "0.0.0",
+  "author": "Dennis Ollhoff <contact@nyxb.email>",
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/nyxb",
+  "homepage": "https://github.com/nyxb/drauu-it#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyxb/drauu-it.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nyxb/drauu-it/issues"
+  },
+  "keywords": [],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "unpkg": "dist/index.global.js",
+  "jsdelivr": "dist/index.global.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "nyxr build --watch",
+    "build": "tsup src/index.ts --format esm,cjs,iife --dts --no-splitting --clean --dts-resolve",
+    "prepublishOnly": "nyxr build"
+  },
+  "devDependencies": {
+    "perfect-freehand": "^1.2.0"
+  }
+}
