@@ -1,6 +1,6 @@
 {
   "name": "drauu-it",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Dennis Ollhoff <contact@nyxb.email>",
   "license": "MIT",
   "funding": "https://github.com/sponsors/nyxb",
@@ -35,6 +35,6 @@
     "prepublishOnly": "nyxr build"
   },
   "dependencies": {
-    "@drauu-it/core": "workspace:*"
+    "@drauu-it/core": "^0.0.2"
   }
 }
