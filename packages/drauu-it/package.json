@@ -29,10 +29,10 @@
     "dist"
   ],
   "scripts": {
-    "dev": "nr tsup --watch",
+    "dev": "nyxr tsup --watch",
     "tsup": "tsup src/index.ts --format esm,cjs --dts --no-splitting --clean",
-    "build": "nr tsup && cp ../core/dist/index.global.js dist",
-    "prepublishOnly": "nr build"
+    "build": "nyxr tsup && cp ../core/dist/index.global.js dist",
+    "prepublishOnly": "nyxr build"
   },
   "dependencies": {
     "@drauu-it/core": "workspace:*"
