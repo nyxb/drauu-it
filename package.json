@@ -2,6 +2,10 @@
    "version": "0.0.0",
    "private": true,
    "packageManager": "bun@1.0.14",
+   "workspaces": [
+      "packages/*",
+      "playground"
+    ],
    "scripts": {
      "play:dev": "bun -C playground run dev -- --open",
      "play:build": "bun -C playground run build",
