@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "packageManager": "bun@1.0.14",
   "workspaces": [
@@ -14,7 +14,7 @@
     "dev": "nyxr play:dev",
     "build": "nyxr js:build",
     "lint": "eslint .",
-    "release": "bumping package.json packages/*/package.json && pnpm -r publish --access public"
+    "release": "bumping package.json packages/*/package.json && npm -r publish --access public"
   },
   "devDependencies": {
     "@nyxb/eslint-config": "^1.0.6",
