@@ -59,6 +59,9 @@ importers:
 
   playground:
     devDependencies:
+      drauu-it:
+        specifier: workspace:^
+        version: link:../packages/drauu-it
       vite:
         specifier: ^4.4.9
         version: 4.5.0

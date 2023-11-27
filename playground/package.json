@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "drauu-it": "workspace:^",
     "vite": "^4.4.9",
     "vite-plugin-windicss": "^1.9.1"
   }
