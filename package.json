@@ -1,20 +1,16 @@
 {
   "version": "0.0.2",
   "private": true,
-  "packageManager": "bun@1.0.14",
-  "workspaces": [
-    "packages/*",
-    "playground"
-  ],
+  "packageManager": "pnpm@8.11.0",
   "scripts": {
-    "play:dev": "cd playground && bun run dev --open",
-    "play:build": "cd playground && bun run build",
-    "js:dev": "bun run -r --parallel --filter=./packages/* dev",
-    "js:build": "bun run -r --filter=./packages/* build",
+    "play:dev": "pnpm -C playground run dev -- --open",
+    "play:build": "pnpm -C playground run build",
+    "js:dev": "pnpm run -r --parallel --filter=./packages/* dev",
+    "js:build": "pnpm run -r --filter=./packages/* build",
     "dev": "nyxr play:dev",
     "build": "nyxr js:build",
     "lint": "eslint .",
-    "release": "bumping package.json packages/*/package.json && npm -r publish --access public"
+    "release": "bumping package.json packages/*/package.json && pnpm -r publish --access public"
   },
   "devDependencies": {
     "@nyxb/eslint-config": "^1.0.6",

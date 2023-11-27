@@ -32,7 +32,7 @@
     "dev": "nyxr tsup --watch",
     "tsup": "tsup src/index.ts --format esm,cjs --dts --no-splitting --clean",
     "build": "nyxr tsup && cp ../core/dist/index.global.js dist",
-    "prepublishOnly": "nyxr build"
+    "prepublishOnly": "nr build"
   },
   "dependencies": {
     "@drauu-it/core": "^0.0.2"

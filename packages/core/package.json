@@ -31,7 +31,7 @@
   "scripts": {
     "dev": "nyxr build --watch",
     "build": "tsup src/index.ts --format esm,cjs,iife --dts --no-splitting --clean --dts-resolve",
-    "prepublishOnly": "nyxr build"
+    "prepublishOnly": "nr build"
   },
   "devDependencies": {
     "perfect-freehand": "^1.2.0"
