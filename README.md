@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/drauu-it?color=9945FF&label=)](https://www.npmjs.com/package/drauu-it)
 
-SVG-based drawing tool in browser. Built for [EnigmaSlidev](https://github.com/nyxb/enigmaslidev).
+SVG-based drawing tool in browser. Built for [Kolibry](https://github.com/kolibry-js/kolibry).
 
 [Live Demo](http://drauu-it.netlify.app/) (built with Vanilla JavaScript!)
 
